@@ -8,7 +8,7 @@ class event2 extends JFrame
 	event2()
 	{
 		Container ct=getContentPane();
-		ct.setLayout(new GridLayout(4,3,10,10));
+		ct.setLayout(new GridLayout(4,3,5,5));
 		for(int i=1;i<=10;++i)
 		{
 			ct.add(new JButton("버튼"+i));
