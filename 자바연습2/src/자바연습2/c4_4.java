@@ -11,9 +11,12 @@ class calcurator extends JFrame //3 4 8 9 13 14 18 19 23 24
 	calcurator()
 	{
 		Container ct=getContentPane();
-	    ct.setLayout(new GridLayout(5,5,4,4));
+		JPanel jp1=new JPanel();
+		JPanel jp2=new JPanel();
+		ct.setLayout(new BorderLayout(0,0));
+	    jp1.setLayout(new GridLayout(5,5,4,4));
 	    jl=new JLabel("0");
-	    
+	  
 	    jb[0]=new JButton("Backspace");	
 	    jb[1]=new JButton("");
 	    jb[2]=new JButton("");	
@@ -52,11 +55,13 @@ class calcurator extends JFrame //3 4 8 9 13 14 18 19 23 24
 	    		jb[i].setForeground(Color.RED);
 	    	}
 	    	jb[i].setBackground(new Color(255,255,0));
-	    	ct.add(jb[i]);
+	    	jp1.add(jb[i]);
 	    }
-	    ct.add(jl);
+	    jp2.add(jl);
+	    ct.add(jp1,BorderLayout.SOUTH);
+	    ct.add(jp2,BorderLayout.WEST);
 	    setTitle("연습문제 4");
-	    setSize(800,500);
+	    setSize(500,210);
 	    setVisible(true);
 	    setResizable(false);
 	}
