@@ -1,7 +1,7 @@
-package º¹ÇÐ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 
 import java.util.Scanner;
-public class Ã¹¹ø¤Š {
+public class ì²«ë²ˆì¨° {
 public static void main(String[]args) 
 {
     /*Scanner stdin=new Scanner(System.in);
@@ -93,7 +93,7 @@ public static void main(String[]args)
 		int a=stdin.nextInt();
 		arr[i]+=arr[i-1]+a;
 	}
-	for(int x=0;x<M;++x)                        ¹üÀ§ÇÕ
+	for(int x=0;x<M;++x)                        ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	{
 		int i=stdin.nextInt();
 		int j=stdin.nextInt();
@@ -109,7 +109,7 @@ public static void main(String[]args)
 		b+=c;
 	else if(b+c>=60)                   
 	{
-		a+=(b+c)/60;                       ¿Àºì½Ã°è
+		a+=(b+c)/60;                       ï¿½ï¿½ï¿½ï¿½Ã°ï¿½
 		if(a>23)
 			a=a-24;
 		b=b+c-((b+c)/60)*60;
@@ -119,12 +119,12 @@ public static void main(String[]args)
 	System.out.println(a+" "+b);*/
 	
     
-	/*ÇÐÁ¡ * °ú¸ñÆòÁ¡ÀÇ ÇÕÀ» ÇÐÁ¡ÀÇ ÃÑÇÕÀ¸·Î ³ª´®
-		double hap=0; //ÇÐÁ¡ÀÇ ÇÕ
-		double cnt=0;    //ÇÐÁ¡ *°ú¸ñÆòÁ¡
-		double a[]=new double[20];  //ÇÐÁ¡
+	/*ï¿½ï¿½ï¿½ï¿½ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		double hap=0; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		double cnt=0;    //ï¿½ï¿½ï¿½ï¿½ *ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		double a[]=new double[20];  //ï¿½ï¿½ï¿½ï¿½
 		String b[]=new String[20];
-		String c[]=new String[20];  //°ú¸ñÆòÁ¡
+		String c[]=new String[20];  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		Scanner stdin=new Scanner(System.in);
 		for(int i=0;i<20;++i)
 		{
@@ -206,7 +206,7 @@ public static void main(String[]args)
 	}
 	for(int i=0;i<9;++i)
 	{      
-		for(int j=0;j<9;++j)             2Â÷¿ø ¹è¿­ÀÇ ÃÖ´ñ°ª°ú ±× À§Ä¡ ±¸ÇÏ±â
+		for(int j=0;j<9;++j)             2ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Ö´ñ°ª°ï¿½ ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½Ï±ï¿½
 		{
 			if(arr[i][j]>a)
 			{
@@ -233,13 +233,13 @@ public static void main(String[]args)
 	int cnt=0,b=0;
 	for(int i=0;i<n;++i)
 	{
-		a[i]=stdin.nextInt();          µ¿Àü °³¼ö ÃÖÀûÈ­
+		a[i]=stdin.nextInt();          ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­
 	}
 	for(int j=n-1;j>=0;--j)
 	{
 		if(k-a[j] >= 0){
 	        cnt += (k / a[j]);
-	        System.out.println(a[j]+"¿ø µ¿Àü "+k/a[j]+"°³ ÇÊ¿ä");
+	        System.out.println(a[j]+"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ "+k/a[j]+"ï¿½ï¿½ ï¿½Ê¿ï¿½");
 	        k -= a[j] * (k / a[j]);
 	        
 		 }
@@ -258,7 +258,7 @@ public static void main(String[]args)
 			}
 			else
 			{
-				System.out.print(" ");           º°Âï±â
+				System.out.print(" ");           ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 		}
 		System.out.println();

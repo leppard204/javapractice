@@ -1,4 +1,4 @@
-package º¹ÇĞ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 import java.io.*;
 import java.util.*;
 
@@ -8,7 +8,7 @@ class ws
 	
 	
 }
-public class ÆÄÀÏÀÔÃâ·Â4 {
+public class íŒŒì¼ì…ì¶œë ¥4 {
 public static void main(String []args) throws Exception
 {
 	

@@ -1,4 +1,4 @@
-package º¹ÇÐ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 import java.io.*;
 import java.util.*;
 
@@ -11,7 +11,7 @@ class fe
 	
 	fe()
 	{
-		System.out.println("***** ÆÄÀÏ Å½»ö±âÀÔ´Ï´Ù. *****");
+		System.out.println("***** ï¿½ï¿½ï¿½ï¿½ Å½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½. *****");
 		showf();
 	}
 	
@@ -22,7 +22,7 @@ class fe
 		for(int i=0;i<sf.length;++i)
 		{
 			System.out.print(sf[i].isDirectory()?"dir \t":"file \t");
-			System.out.print(sf[i].length()+"¹ÙÀÌÆ® \t");
+			System.out.print(sf[i].length()+"ï¿½ï¿½ï¿½ï¿½Æ® \t");
 			System.out.print(sf[i].getName());
 			System.out.println();
 		}
@@ -36,14 +36,14 @@ class fe
 			s=stdin.nextLine();
 			if(s.equals("Exit"))
 			{
-				System.out.println("Á¾·á");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½");
 				break;
 			}
 			else if(s.equals("..."))
 			{
 				if(f.getParent()==null)
 				{
-					System.out.println("parent dirÀÌ ¾ø½À´Ï´Ù.");
+					System.out.println("parent dirï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 					continue;
 				}
 				else
@@ -60,7 +60,7 @@ class fe
 		}
 	}
 }
-public class ÆÄÀÏÀÔÃâ·Â {
+public class íŒŒì¼ìž…ì¶œë ¥ {
 public static void main(String []args) throws Exception
 {
 	fe a=new fe();

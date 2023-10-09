@@ -1,4 +1,4 @@
-package º¹ÇÐ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 import java.util.*;
 public class Main {
 public static void main(String args[])

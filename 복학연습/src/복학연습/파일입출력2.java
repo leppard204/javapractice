@@ -1,6 +1,6 @@
-package º¹ÇĞ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 import java.io.*;
-public class ÆÄÀÏÀÔÃâ·Â2 {
+public class íŒŒì¼ì…ì¶œë ¥2 {
 public static void main(String []args) throws Exception
 {
 	int []arr1= {1,2,3,4,5};

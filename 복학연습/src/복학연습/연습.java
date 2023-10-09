@@ -1,6 +1,6 @@
-package º¹ÇÐ¿¬½À;
+package ë³µí•™ì—°ìŠµ;
 import java.util.*;
-public class ¿¬½À {
+public class ì—°ìŠµ {
 public static void main(String args[]) {
 	Scanner stdin=new Scanner(System.in);
 	Random r=new Random();

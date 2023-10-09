@@ -1,6 +1,6 @@
-package º¹ÇÐ¿¬½À;  //¹è²¸¾¸
+package ë³µí•™ì—°ìŠµ;  //ï¿½è²¸ï¿½ï¿½
 import java.io.*;
-public class ÆÄÀÏÀÔÃâ·Â3 {
+public class íŒŒì¼ìž…ì¶œë ¥3 {
 public static void main(String []args) throws Exception
 {
 	File f1=new File("a.jpg");
@@ -12,12 +12,12 @@ public static void main(String []args) throws Exception
 	long progress=0;
 	
 	System.out.println("Copy "+f1.getName()+" as "+f2.getName());
-	byte []buf=new byte[1024]; //ÇÑ¹øÀÐ´Â´ÜÀ§
-	int numread=0;//ÀÐÀº ¹ÙÀÌÆ® ¼ö
+	byte []buf=new byte[1024]; //ï¿½Ñ¹ï¿½ï¿½Ð´Â´ï¿½ï¿½ï¿½
+	int numread=0;//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½
 	while(true)
 	{
 		numread=bis1.read(buf,0,buf.length);
-		if(numread==-1)//ÆÄÀÏ³¡¿¡µµ´Þ
+		if(numread==-1)//ï¿½ï¿½ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		{
 			if(progress>0)
 			{
@@ -29,11 +29,11 @@ public static void main(String []args) throws Exception
 		{
 			bis2.write(buf,0,numread);
 		}
-		progress+=numread;//ÆÄÀÏ Å©µð10%µÉ¶§±îÁö ÀÐÀº ´©Àû ¹ÙÀÌÆ® ¼ö
+		progress+=numread;//ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½10%ï¿½É¶ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½
 		if(progress>=tenpercent)
 		{
 			System.out.print("*");
-			progress=0;//*Ãâ·ÂÇÏ°í progress 0À¸·Î ÃÊ±âÈ­
+			progress=0;//*ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ progress 0ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 		}
 	}
 	bis1.close();
