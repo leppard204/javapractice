@@ -3,12 +3,12 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class calcurator extends JFrame //3 4 8 9 13 14 18 19 23 24
+class Calcurator extends JFrame //3 4 8 9 13 14 18 19 23 24
 {
 	JButton jb[]=new JButton[25];
 	JLabel jl;
 	
-	calcurator()
+	Calcurator()
 	{
 		Container ct=getContentPane();
 		JPanel jp1=new JPanel();
@@ -70,6 +70,6 @@ class calcurator extends JFrame //3 4 8 9 13 14 18 19 23 24
 public class c4_4 {
 public static void main(String []args)
 {
-	new calcurator();
+	new Calcurator();
 }
 }

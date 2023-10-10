@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javapractice.iml" filepath="$PROJECT_DIR$/javapractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/복학연습/복학연습.iml" filepath="$PROJECT_DIR$/복학연습/복학연습.iml" />
+      <module fileurl="file://$PROJECT_DIR$/자바연습/자바연습.iml" filepath="$PROJECT_DIR$/자바연습/자바연습.iml" />
+      <module fileurl="file://$PROJECT_DIR$/자바연습2/자바연습2.iml" filepath="$PROJECT_DIR$/자바연습2/자바연습2.iml" />
+    </modules>
+  </component>
+</project>
